@@ -1,0 +1,5 @@
+services:
+    nxp.twig.rutils_extension:
+        class: nxp\RutilsBundle\Twig\RutilsExtension
+        tags:
+            - { name: twig.extension }

@@ -1,0 +1,22 @@
+{
+    "name": "nxp/rutils-bundle",
+    "description": "Rutils Symfony 2 bundle",
+    "minimum-stability": "stable",
+    "keywords": ["russian", "numbers to text"],
+    "homepage": "http://github.com/NeonXP/RutilsBundle",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Alexander 'NeonXP' Kiryukhin",
+            "email": "frei@neonxp.info"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"NXP\\RutilsBundle": ""}
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/framework-bundle": "~2.2",
+	"andre_487/php_rutils": "1.1.1"
+    }
+} 
