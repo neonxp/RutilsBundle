@@ -14,9 +14,10 @@
     "autoload": {
         "psr-0": {"nxp//RutilsBundle": "src/"}
     },
+    "target-dir": "nxp/RutilsBundle",
     "require": {
         "php": ">=5.4.0",
         "symfony/framework-bundle": "~2.2",
-	"andre_487/php_rutils": "1.1.1"
+        "andre_487/php_rutils": "1.1.1"
     }
 } 
