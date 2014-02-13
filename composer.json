@@ -12,7 +12,7 @@
         }
     ],
     "autoload": {
-        "psr-0": {"NXP\\RutilsBundle": ""}
+        "psr-0": {"NXP": "src/"}
     },
     "require": {
         "php": ">=5.4.0",
