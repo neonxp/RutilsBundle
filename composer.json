@@ -12,7 +12,7 @@
         }
     ],
     "autoload": {
-        "psr-0": {"nxp//RutilsBundle": "src/"}
+        "psr-0": {"nxp\\RutilsBundle": ""}
     },
     "target-dir": "nxp/RutilsBundle",
     "require": {
