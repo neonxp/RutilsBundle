@@ -1,5 +1,4 @@
-Rutils Symfony 2 Bundle
-=======================
+# Rutils Symfony 2 Bundle
 
 Простой бандл для Symfony 2 содержащий в себе расширение для Twig, позволяющее использовать функции из библиотеки [RUtils](RUtils: https://github.com/Andre-487/php_rutils/) в шаблонах.
 
@@ -36,7 +35,28 @@ Rutils Symfony 2 Bundle
     slugify\1 - подготовка для использования в URL'ях или путях
 
 Типографика:
+
     typography\2
+    
+## Установка
+
+1) установить бандл с помощью composer:
+
+    composer.phar require "nxp/rutils-bundle" "dev-master"
+
+2) добавить строку
+
+    new nxp\RutilsBundle\nxpRutilsBundle(),
+
+в файл app/AppKernel.php в массив $bundles:
+
+    $bundles = array(
+    ...
+    new nxp\RutilsBundle\nxpRutilsBundle(),
+    ...
+    );
+
+3) всё, можно использовать функции и/или фильтры в своих Twig шаблонах!
 
 TODO:
 
